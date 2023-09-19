@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Data Viewer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/brazil-favicon.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title_header">Information about Federative Units of Brazil</h1>        
+        <img class="brazil_icon" src="assets/brazil-icon.png" alt="brazil-icon">
+    </header>
+    <main class="container">
+        <div class="container_select" id="ufInfo">
+            <select class="container_select_region" id="regionSelect" name="regionSelect" style="display: none;"></select>
+            <select class="container_select_state" id="stateSelect" name="stateSelect" style="display: none;"></select>
+            <h3 id="cityh3" style="display: none;">Cities</h3>
+            <table class="city_table" id="cityTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>City</td>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="loader" id="loader"></div>
+        <img class="brazil_img" id="brazil_map" src="assets/brazil-division-states.png" alt="brazil-division-states">
+        
+
+        <script src="js/SearchDsitrict_region_city.js"></script>
+    </main>
+   <footer>
+            <p>&copy; Made by Robert Alexander</p>
+   </footer>
+</body>
+</html>
