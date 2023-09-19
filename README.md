@@ -18,9 +18,9 @@ Open the index.html in the browser page to visualize the data.
 
 ## Roadmap
 
-[ ] Create a search so the user can select the specific state without knowing the region.
+[] Create a search so the user can select the specific state without knowing the region.
 
-[ ] Use the Brazilian map to search. The user will select the region and state clicking in the map image.
+[] Use the Brazilian map to search. The user will select the region and state clicking in the map image.
 
 ## Contributing
 
