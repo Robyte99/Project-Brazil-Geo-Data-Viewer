@@ -4,7 +4,6 @@ Project-Brazil-Geo-Data-Viewer is a static page in web to show details about the
 ## Description
 
 The project uses the API: 
-bash
 https://brasilapi.com.br/api/ibge/municipios/v1/{UF}?providers=dados-abertos-br
 
 Select the region and state in dropdowns to visualize all refer cities in a table with name and id.
